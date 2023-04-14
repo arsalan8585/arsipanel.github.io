@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+  font-family: "BYekan";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../src/fonts/BYekan.woff");
+}
+
+body {
+  font-family: BYekan;
+}
+@tailwind utilities;
+
+

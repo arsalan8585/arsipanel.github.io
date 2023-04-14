@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>arsipanel</title>
+  </head>
+  <body
+    dir="rtl"
+    class="bg-gray-100 rounded-2xl h-screen overflow-hidden relative font-body"
+  >
+    <div class="flex items-start justify-between">
+      <!-- navbar -->
+      <div class="h-screen hidden lg:block my-4 mr-4 shadow-lg relative w-80">
+        <div class="bg-white h-full rounded-2xl">
+          <div class="flex items-center justify-center pt-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="35"
+              height="35"
+            >
+              <image
+                width="35"
+                height="35"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAP0lEQVRYhe3OMQEAIADDsIF/z0NBuXc0CnLaNiPuSiRmPswQM8QMMUPMEDPEDDFDzBAzxAwxQ8wQM8QM2ckkeX+LBELpdJssAAAAAElFTkSuQmCC"
+              ></image>
+              <image
+                x="2"
+                width="28"
+                height="25"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAZCAYAAAAiwE4nAAAEYUlEQVRIia1WTYgcRRT+vldV3TOz2exffsghJBcNGhU1BxOQJMRDAgoi/ixBBCFeRC/i0asiePDmSSVBoiARDQgBEU8JBA+Cp0gkNyWERFeT7M5Md1fVk+qZXXtmZyVR38w3VFf36/f31XvDHVOEAmD6EFgpFb1S6/UkUQWsEbjM7l8pqhMKHNg8lfemJR71PjzSXwnfbaSbRDa+NVmMkTlY+Wi59Bd81FdC1L3d2/3LZVG1b1b6AQUz/6R/xwZTZGK4LQrPdQt/IoRoVu+1DU9G4eGVMu6JwoN3ZdAQdYqTgSZEaJT8pKjC/rEXXHfExX7AS+m6Ao4L6xpNxIjBZCi3AiuoaygNWCeLhY9Hxx10wLdBMbdcxsPpuh9xLBLbBl6vx7oIk6GpXFKtYO0QTlwZ9M0U6bjkglOR+lRU5OmWjzoXySc34s3EGmaWcAbwAAKAKuKB0sdH1zkHXG1ZnK+IF5r7fcWL2MDihqSZyohMgBAUGrU36RlHfC0GW/sBR5r7RdTHVXjPJB0znXHoLTH4cq24uROQRAjxNyh+j8AuALcBLCVMCd4S4t6uxz4AywTaAKzWJedVo7gwXoV08GcVKAlq02BNMiEqBQufokS3CjqbWdods3kkobMtuxxV29eXCq4UsSxLP1tEPFECrxnL+U1BH46KkexwOuP7/YBFqPab7WV1FQGq1oGm4xGsoW7uOJ+uo8KQ1LKKEao3WkbOM8RPfeEvFcTLcx17gapXRgxOCeY9ea4I+thG9bwbcc7Eubb7zJT+9a3z7mYrNxhhd4fAJsGW3PDHySfn32FT213elpk98wCaqA0OjHJXJvzhfzXaspe2O9m+AGCBAxg3LJYCNw3xuSETy+7TAeP+k5Q+bjWZOZgDZ1W1WxOx0zigOvwhsROCA1XEoaDYMeDL2jOpo9hhy615oGtq6DciXCVfPpObk7YKZ+oxOG3GYyAMFe2ch6ZyXCsjez6Sqb8aY3irF6/d6vo+/85MDSNAOzc7hbRpP0RFiICzggy86bvlUk39WcsRzDhiS44HrUBrGBRGUFhB4QzLjvBIynUKM/UMN0RLgMzgSyErEZZClCTKtJ5pua+2CLEggIxXOuXHA8/7mBox4AOyEJH5iCwE/RWqF5tjJjlthqEa4ExUtTGqiwqnCpfWXR+O0cjuelqkVDSRWXVFxLOTyGKIs8Cwcwy7UfKYQwjwjTO4Ma7ng7bgzDOD5xtDNqoigvsLj/vXVZboWeBDbaRDhkxZHbQasZQJPx7XVVX0gi5SmL4DpQQjRKAcjxPmngPeoeKnUXqN1iM5w4D3Wo4/j+v3Q9wn1jwksY4MCHUBubnn49PrjBGnLPAuGs6tRTaevqh/5ORz7cz8MrLvg/Uii5h1XMNCSxbTFFj1mUCREW93CFntSONIjB1HB8C04d7M8Hs03tfJ3RXTsYP/o4kwnnyj73W3AH9a4ouMeNUAp5sH+U4kBR4VNyxw2givUmS7QltV0Oovk70DD93TSqEAAAAASUVORK5CYII="
+              ></image>
+              <path
+                data-name="Color Fill 1"
+                d="m6.676 25.868.844.094c-.031 1.457-.29 3.909.281 4.878a3.406 3.406 0 0 0 1.876-.281v-1.595h.75a2.834 2.834 0 0 0 .373 1.876 3.665 3.665 0 0 0 2.251-.375v-1.5h.749l-.188 2.157c-1.1.815-2.539.479-3.752.094-.488.618-1.615.521-2.439.281-.075 2.23-3.357 3.574-4.69 1.595a6.12 6.12 0 0 1-.37-3.192h.75a10.822 10.822 0 0 0 .189 2.628l.657.563c3.974.109 2.825-3.583 2.719-7.223Zm23.731 0h.75v5.816h-.75v-5.816ZM9.583 26.994l.938.094-.094.75-.937-.094Zm8.536 1.032h.844v.75h-.844v-.75Zm-1.97 1.874h.751a10.828 10.828 0 0 0 .188 2.626l.657.563c3.013.124 2.839-1.259 2.72-4.127l.844.094a3.149 3.149 0 0 0 .281 1.782 3.67 3.67 0 0 0 1.97-.281v-1.593h.75a2.834 2.834 0 0 0 .375 1.876H25.9l.281-.281a2.837 2.837 0 0 1 .563-2.064c1.983-.652 2.913.634 2.345 2.533-1.426 1.087-1.253.271-2.533.188l-.657.469c-.927.321-1.633-.306-2.157-.469-.5.626-1.7.524-2.533.281-.075 2.23-3.357 3.574-4.69 1.595a6.122 6.122 0 0 1-.37-3.192Zm11.256-.844-.469.469a1.655 1.655 0 0 0 .375 1.313h.094a1.394 1.394 0 0 0 1.126-.375v-.092l-.094-.844c-.209-.427-.382-.481-1.032-.469Zm-2.626 4.5h-.844l.094-.844.75.094v.75Zm-13.226-.75h.847v.75h-.847v-.746Zm1.219 0h.844v.75h-.843v-.746Zm9.943 0h.75v.75h-.75v-.746ZM12.21 34.029h.75v.75h-.75v-.75Z"
+                style="fill: #e8125e; fill-rule: evenodd"
+              ></path>
+            </svg>
+          </div>
+          <nav class="pt-6">
+            <div>
+              <a
+                href="./index.html"
+                class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+              >
+                <span class="text-left">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                  </svg>
+                  
+                </span>
+                <span class="mx-4 font-normal text-normal"> داشبورد </span>
+              </a>
+
+              <a
+              href="#"
+              class="w-full font-thin text-blue-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start bg-gradient-to-l from-white to-blue-100 border-l-4 border-blue-500"
+            >
+            <span class="text-left">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+              </svg>
+              
+            </span>
+            <span class="mx-4 font-normal text-lg">کاربران</span>
+          </a>
+               
+              <a
+              href="./forms.html"
+              class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+            >
+              <span class="text-left">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                </svg>
+                
+                
+              </span>
+              <span class="mx-4 font-normal text-normal"> فرم ها </span>
+            </a>
+
+            <a
+            href="./login.html"
+            class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+          >
+            <span class="text-left">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
+              </svg>
+              
+            </span>
+            <span class="mx-4 font-normal text-normal"> لاگین </span>
+          </a>
+
+
+          <a
+          href="./register.html"
+          class="w-full font-thin text-gray-500 flex items-center p-4 my-2 transition-colors duration-200 justify-start hover:text-blue-500"
+        >
+          <span class="text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+            </svg>
+            
+
+          </span>
+          <span class="mx-4 font-normal text-normal"> ثبت نام</span>
+        </a>
+            </div>
+          </nav>
+          <div class="absolute bottom-0 my-10">
+            <a href="#" class="text-gray-500 hover:text-gray-800 transition-colors duration-200 flex items-center py-2 px-8">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-blue-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+              </svg>
+               
+              <span class="mx-4"> ارسی پنل </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end navbar -->
+      <div class="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
+           <!-- header -->
+           <header class="w-full shadow-lg bg-white items-center h-16 rounded-2xl  z-40">
+             <div class="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center">
+              <div class="relative items-center pl-1 flex w-full lg:max-w-68 sm:pr-2 sm:ml-0">
+                <div class="container relative left-0 z-50 flex w-3/4 h-auto h-full">
+                  <div class="relative flex items-center w-full lg:w-64 h-full group">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute right-0 z-20 hidden mr-4 text-gray-500 pointer-events-none  group-hover:text-gray-400 sm:block">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                    <input type="text" placeholder="بگرد تا بگردیم !!" class="block w-full py-2 pr-10 leading-normal rounded-2xl focus:border-transparent focus:outline-none focus:ring-2 focus: ring-blue-500 ring-opacity-90 text-gray-400">
+
+                  </div>
+                </div>
+                <div class="relative p-1 flex items-center justify-end w-1/4 ml-5 mr-4 sm:mr-0 sm:right-auto">
+                   <a href="#" class="block relative">
+                    <img src="../src/img/20200421-psycho-04.webp" alt="عکس ارسلان" class="mx-auto object-cover rounded-full h-10 w-10">
+                   </a>
+                </div>
+              </div>
+             </div>
+           </header>
+           <!-- end header -->
+
+           <!-- main area -->
+           <div class="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
+           <div class="flex flex-col flex-wrap sm:flex-row">
+            <div class="container mx-auto px-4 sm:px-8 max-w-8xl">
+             <div class="py-8">
+              <div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
+               <h2 class="text-2xl leading-tight">
+                 کاربران
+               </h2>
+               <div class="text-end">
+                <form action="#" class="flex flex-col md:flex-row w-3/4 md:w-full max-w-sm md:space-x-3 space-y-3 md:space-y-0 justify-center">
+                  <div class="relative">
+                  <input type="text"class="rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-700 focus:border-transparent" placeholder="بگرد">
+                  </div>
+                  <button class="flex-shrink-0 px-4 py-2 text-base font-semibold text-white bg-purple-600 rounded-lg shadow-md hover:bg-purple-500 ">
+                    بگرد
+                  </button>
+                </form>
+               </div>
+              </div>
+              <div class="mx-4 sm:mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                <div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
+                 <table class="min-w-full leading-normal">
+                     <thead>
+                        <tr>
+                          <th scope="col" class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-right text-sm font-normal ">
+                              کاربر
+                          </th>
+                          <th scope="col" class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-right text-sm font-normal ">
+                            نقش
+                       </th>
+                       <th scope="col" class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-right text-sm font-normal ">
+                        ایجاد شده در
+                   </th>
+                   <th scope="col" class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-right text-sm font-normal ">
+                    وضعیت
+               </th>
+               <th scope="col" class="px-5 py-3 bg-white border-b border-gray-200 text-gray-800 text-right text-sm font-normal ">
+                اقدامات
+           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                      <tr>
+                       <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                        <div class="flex items-center">
+                         <div class="flex-shrink-0">
+                            <a href="">
+                              <img src="../src/img/20200421-psycho-04.webp" alt="" class="mx-auto object-cover rounded-full h-10 w-10 ">
+                            </a>
+                         </div>
+                         <div class="mr-3">
+                          <p class="text-gray-900 whitespace-nowrap">
+                              پاتریک بیتمن
+                          </p>
+                         </div>
+                        </div>
+                       </td>
+                       <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                        <p class="text-gray-900 whitespace-nowrap">
+                         توسعه دهنده 
+                      </p>
+                       </td>
+
+                       <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                        <p class="text-gray-900 whitespace-nowrap">
+                            1402/1/20 
+                      </p>
+                       </td>
+
+                       <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                        <span class="relative inline-block px-3 py-1 text-green-900 leading-tight">
+                         <span aria-hidden="true" class="absolute inset-0 bg-green-200 opacity-50 rounded-full">
+                         </span>
+                         <span class="relative">
+                           فعال
+                         </span>
+                        </span>
+                      
+                      
+                       </td>
+
+                       <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                        <div class="flex">
+                          <a href="#" title="ویرایش">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+                            </svg>
+                          </a>
+                          <a href="#" title="پاک کردن">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                            </svg>                            
+                          </a>
+                        </div>
+                       </td>
+                      </tr>
+                     </tbody>
+                 </table>
+                 <!-- paginat -->
+                  <div class="px-5 bg-white py-5 flex flex-col xs:flex-row items-center xs:justify-between">
+                    <div class="flex items-center">
+                            <button class="w-full p-2 border text-base rounded-r-xl text-gray-600 bg-white hover:bg-gray-100" type="button">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                              </svg>                                                                                                                                        
+                              </button>
+                              <button type="button" class="w-full px-4 py-1 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100">
+                                1
+                              </button>
+                              <button type="button" class="w-full px-4 py-1 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100">
+                                2
+                              </button>
+                              <button type="button" class="w-full px-4 py-1 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100">
+                                3
+                              </button>
+                              <button type="button" class="w-full px-4 py-1 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100">
+                                4
+                              </button>
+                              <button class="w-full p-2 border text-base rounded-l-xl text-gray-600 bg-white hover:bg-gray-100" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-4">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>                                                                                                            
+                              </button>
+                    </div>
+                  </div>
+                 <!-- end paginat -->
+                </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <!-- end main area -->
+
+    </div>
+  </body>
+</html>
